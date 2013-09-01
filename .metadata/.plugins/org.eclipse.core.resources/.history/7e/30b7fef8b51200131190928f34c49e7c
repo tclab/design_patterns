@@ -1,0 +1,10 @@
+package co.tclab.patterns.creational.abstractFactory.impl;
+
+interface Local {
+	  DataInfo[] loadDB(String filename);
+	}
+
+
+interface Remote extends Local {
+	void connect2WWW(String url);
+}

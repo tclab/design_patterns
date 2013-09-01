@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+<definition>
+Provides one level of interface higher than the factory pattern. It is used to return one of several factories.
+</definition>
+
+<use_benefits>
+
+Creates families of related or dependent objects like Kit.
+Provides a class library of products, exposing interface not implementation.
+Needs to isolate concrete classes from their super classes.
+A system needs independent of how its products are created, composed, and represented.
+Try to enforce a constraint.
+An alternative to Facade to hide platform-specific classes
+Easily extensible to a system or a family
+Related patterns include
+Factory method, which is often implemented with an abstract factory.
+Singleton, which is often implemented with an abstract factory.
+Prototype, which is often implemented with an abstract factory.
+façade, which is often used with an abstract factory by providing an interface for creating implementing class.
+</use_benefits>
+
+<example>
+	Suppose you need to write a program to show data in two different
+	places. Let's say from a local or a remote database. You need to make a
+	connection to a database before working on the data. In this case, you
+	have two choices, local or remote. You may use abstract factory design
+	pattern to design the interface in the following way:
+</example>
+
+
+
+
+</pattern>
