@@ -1,5 +1,0 @@
-package co.tclab.patterns.creational.abstractFactory.impl;
-
-public class DataManager {
-
-}
